@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap");
 
-/***  VARIABLES & THEMES ***/
+
 
 :root {
   --primary-color: #cf0f0f;
@@ -55,7 +55,7 @@
   transform: rotateZ(180deg) scaleX(-1);
 }
 
-/* Generic Styles */
+
 
 * {
   margin: 0;
@@ -115,8 +115,6 @@ textarea:focus-visible {
   border-color: black;
 }
 
-/* Header Styles */
-
 header {
   background-color: var(--header-background-color);
   min-height: 850px;
@@ -126,11 +124,10 @@ header {
   position: relative;
 }
 
-/* Pseudoelemento */
 
 header::before {
   content: "";
-  /*Vazio*/
+  
   width: 100%;
   height: 100%;
   position: absolute;
@@ -168,8 +165,6 @@ header::before {
   color: var(--primary-color-contrast);
 }
 
-/* World Characters Styles */
-
 .world-characters {
   width: 100%;
   max-width: 900px;
@@ -194,7 +189,6 @@ header::before {
   --webkit-mask: var(--character-bottom-image-src) bottom / 100% no-repeat;
 }
 
-/* Main Styles */
 main {
   position: relative;
   display: flex;
@@ -213,14 +207,13 @@ main::before {
   z-index: -1;
 }
 
-/* Sections Styles */
 section {
   display: flex;
   justify-content: space-between;
   margin-bottom: 95px;
 }
 
-/* Section 01: Invereted World */
+
 .container {
   max-width: 1200px;
 }
@@ -237,7 +230,6 @@ section {
   max-width: 300px;
 }
 
-/* Section 02: Trailer Stranger Things */
 #section-stranger-things-trailer .section-texts {
   width: 50%;
   text-align: right;
@@ -261,7 +253,6 @@ section {
   border-image-slice: 10;
 }
 
-/* Section 03: Image Gallery */
 #section-stranger-things-gallery {
   width: 100%;
   justify-content: center;
@@ -297,7 +288,6 @@ section {
   border: 10 px solid, var(--highlight-color);
 }
 
-/* Section 04: Form */
 #section-form {
   flex-direction: column;
   align-items: center;
@@ -364,8 +354,6 @@ section {
   background-color: var(--primary-color-contrast);
   color: var(--field-background-color);
 }
-
-/* Footer Styles */
 
 footer {
   padding: 60px 0;
